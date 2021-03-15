@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package smt2minggu2;
+
+/**
+ *
+ * @author acer
+ */
+public class ManagingPeople {
+
+    public static void main(String[] args) {
+        Person_1 p1 = new Person_1("Arial", 37);
+        Person_1 p2 = new Person_1("Joseph", 15);
+
+        if (p1.getAge() == p2.getAge()) 
+        {
+            System.out.println(p1.getName() + " is the same age as " + p2.getName());
+        } else 
+        {
+            System.out.println(p1.getName() + " is NOT the same age as " + p2.getName());
+        }
+    }
+}
